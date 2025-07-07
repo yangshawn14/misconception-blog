@@ -56,6 +56,8 @@ npm install
 npm start
 ```
 
+---
+
 ## 🚀 Live Demo
 
 Coming soon...
