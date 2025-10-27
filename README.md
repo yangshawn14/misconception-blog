@@ -6,31 +6,47 @@ This project is built with **React** and uses **Firebase** for future data stora
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **React** (Create React App)
-- **JavaScript**
-- **Firebase** (Firestore + Hosting)
-- **CSS** or **Tailwind CSS** (optional)
+- Frontend: React (Create React App or Vite), JavaScript, CSS or Tailwind CSS
+
+- Backend: Node.js, Express.js
+
+- Database: MongoDB (Atlas or local) with Mongoose
+
+- Hosting: Vercel / Render / Heroku for backend, Netlify or Vercel for frontend
+
+- Analytics & SEO: Google Analytics, meta tags for SEO
 
 ---
 
 ## 📁 Folder Structure (WIP)
 
-/src
-/components
-Navbar.js
-BlogPostCard.js // For listing posts (future)
-BlogPostPage.js // For displaying full post
-/pages
-Home.js // Landing page or blog list
-Blog.js // First blog post content
-/firebase
-config.js // Firebase setup
-App.js
-index.js
-firebase.json // Firebase hosting config (optional)
-README.md
+misconception-blog/
+├─ backend/
+│ ├─ server.js // Express server entry point
+│ ├─ routes/
+│ │ └─ posts.js // API routes for CRUD operations on blog posts
+│ ├─ models/
+│ │ └─ Post.js // Mongoose schema for blog posts
+│ └─ config/
+│ └─ db.js // MongoDB connection setup
+├─ frontend/
+│ ├─ public/
+│ │ └─ index.html
+│ ├─ src/
+│ │ ├─ components/
+│ │ │ ├─ Navbar.js
+│ │ │ ├─ BlogPostCard.js // For listing posts
+│ │ │ └─ BlogPostPage.js // For displaying full post
+│ │ ├─ pages/
+│ │ │ ├─ Home.js
+│ │ │ └─ Blog.js // First blog post content
+│ │ ├─ App.js
+│ │ └─ index.js
+│ └─ package.json
+├─ .gitignore
+└─ README.md
 
 > This structure will evolve as the project grows (e.g., when routing or dynamic content is added).
 
