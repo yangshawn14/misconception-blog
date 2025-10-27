@@ -1,7 +1,6 @@
 # 🧠 Debunked: A Blog About Misconceptions
 
-This is a personal blog project where I explore and debunk common myths and misconceptions — one topic at a time. The first post tackles the classic "Do we only use 10% of our brains?" myth.
-
+This is a personal blog project where I explore and debunk common myths and misconceptions — one topic at a time. The first section will be about money and finance myths.
 This project is built with **React** and uses **Firebase** for future data storage and hosting.
 
 ---
