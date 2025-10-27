@@ -21,6 +21,7 @@ This project is built with **React** and uses **Firebase** for future data stora
 
 ## 📁 Folder Structure (WIP)
 
+```
 misconception-blog/
 ├─ backend/
 │ ├─ server.js // Express server entry point
@@ -46,6 +47,7 @@ misconception-blog/
 │ └─ package.json
 ├─ .gitignore
 └─ README.md
+```
 
 > This structure will evolve as the project grows (e.g., when routing or dynamic content is added).
 
